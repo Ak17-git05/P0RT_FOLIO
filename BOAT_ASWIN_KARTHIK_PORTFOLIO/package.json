@@ -1,0 +1,9 @@
+{
+  "name": "boat-aswin-karthik-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 8000"
+  },
+  "description": "BOAT \u2014 Aswin Karthik.G interactive AI engineering portfolio"
+}

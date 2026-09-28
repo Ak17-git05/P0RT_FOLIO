@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070908">
+  <meta name="description" content="ASWIN KARTHIK.G — AI / ML Engineering Lab">
+  <title>ASWIN // AI ENGINEERING LAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="world" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div id="boot" class="boot">
+    <div class="boot-grid"></div>
+    <div class="boot-inner">
+      <div class="eyebrow">BOAT / BUILD 01 / 2026</div>
+      <h1>ASWIN<span class="thin"> // </span>LAB</h1>
+      <p class="boot-lead">AI ENGINEERING · MEDICAL INTELLIGENCE · COMPUTER VISION</p>
+      <div class="terminal">
+        <div><span>SYS</span> initializing visual substrate...</div>
+        <div><span>MED</span> medical ai <b>ONLINE</b></div>
+        <div><span>VIS</span> computer vision <b>ONLINE</b></div>
+        <div><span>MLT</span> multimodal research <b>RESEARCH</b></div>
+        <div><span>LLM</span> optimization lab <b>EXPERIMENTAL</b></div>
+      </div>
+      <button id="enter" class="enter magnetic"><span>ENTER THE LAB</span><i>↗</i></button>
+      <div class="boot-note">A living portfolio for Aswin Karthik.G</div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">AK<span>//</span>LAB</a>
+    <div class="status"><span class="pulse"></span> SYSTEM ONLINE</div>
+    <button class="menu magnetic" id="menuBtn" aria-label="Open navigation">INDEX <span>+</span></button>
+  </header>
+
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <div class="drawer-head"><span>LAB INDEX</span><button id="closeBtn">CLOSE ×</button></div>
+    <nav>
+      <a href="#top" data-close>00 / ORIGIN</a>
+      <a href="#medical" data-close>01 / MEDICAL AI</a>
+      <a href="#vision" data-close>02 / COMPUTER VISION</a>
+      <a href="#multimodal" data-close>03 / MULTIMODAL RESEARCH</a>
+      <a href="#optimization" data-close>04 / AI OPTIMIZATION</a>
+      <a href="#stack" data-close>05 / ENGINEERING STACK</a>
+      <a href="#timeline" data-close>06 / CAREER + EDUCATION</a>
+      <a href="#contact" data-close>07 / CONTACT</a>
+    </nav>
+  </aside>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">ASWIN KARTHIK.G / AI & ML ENGINEERING</div>
+        <h2>Engineering<br><em>intelligence</em><br>for human systems.</h2>
+        <p class="hero-text">Computer Science × Medical Engineering. Building practical healthcare AI through medical image analysis, intelligent clinical decision support, automated AI pipelines and computer vision.</p>
+        <div class="hero-actions">
+          <a href="#medical" class="cta magnetic">EXPLORE SYSTEMS <span>↓</span></a>
+          <a href="#contact" class="ghost">CONTACT <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core"><span>AK</span></div>
+        <div class="signal-line"></div>
+      </div>
+      <div class="scroll-cue">SCROLL TO MOVE THROUGH THE SYSTEM <span>↓</span></div>
+    </section>
+
+    <section id="medical" class="section lab medical">
+      <div class="section-head">
+        <span>01 / MEDICAL AI</span><span>HEALTHCARE SYSTEMS</span>
+      </div>
+      <div class="world-title">
+        <div class="eyebrow">MEDICAL INTELLIGENCE</div>
+        <h2>Signals become<br><em>knowledge.</em></h2>
+      </div>
+      <div class="ecg-stage">
+        <div class="scan-frame">
+          <div class="scan-label">ECG / REPORT INPUT</div>
+          <div class="paper-grid"></div>
+          <svg class="ecg" viewBox="0 0 900 220" preserveAspectRatio="none">
+            <path d="M0 125 L90 125 L110 122 L125 126 L145 125 L160 125 L172 120 L184 125 L210 125 L224 125 L235 112 L245 165 L257 55 L270 125 L315 125 L330 125 L350 122 L365 126 L390 125 L405 118 L418 125 L445 125 L458 112 L468 164 L480 55 L493 125 L540 125 L558 124 L575 120 L588 126 L620 125 L635 114 L648 125 L675 125 L690 110 L700 165 L712 55 L725 125 L780 125 L795 122 L810 125 L840 125 L860 120 L900 125"/>
+          </svg>
+          <div class="scanline"></div>
+        </div>
+        <div class="pipeline">
+          <div class="pipe active"><span>01</span> IMAGE ENHANCEMENT</div>
+          <div class="pipe"><span>02</span> WAVEFORM EXTRACTION</div>
+          <div class="pipe"><span>03</span> SIGNAL RECONSTRUCTION</div>
+          <div class="pipe"><span>04</span> DIGITAL ECG</div>
+          <div class="pipe"><span>05</span> CARDIAC PARAMETERS</div>
+        </div>
+      </div>
+      <article class="feature">
+        <div class="feature-meta">ONWARD TECHNOLOGIES LTD · MAR 2026 — JUL 2026</div>
+        <h3>ECG Signal Digitization<br>& Feature Extraction</h3>
+        <p>Developed a computer vision-based pipeline to convert ECG report images into machine-readable digital signals using image enhancement, waveform extraction and signal reconstruction techniques. Automated extraction of clinically relevant cardiac parameters for downstream AI-based ECG interpretation.</p>
+      </article>
+
+      <div class="project-grid">
+        <article class="project reveal">
+          <div class="project-index">MED / 02</div>
+          <h3>AI-Based Cervical Cancer Detection</h3>
+          <p>CNN-based multi-class classifier for cervical cytology images with Grad-CAM explainability.</p>
+          <div class="classes"><span>NILM</span><span>LSIL</span><span>HSIL</span><span>SCC</span></div>
+          <div class="metrics"><div><b>92%</b><span>ACCURACY</span></div><div><b>90%</b><span>PRECISION</span></div><div><b>91%</b><span>RECALL</span></div><div><b>90.5%</b><span>F1</span></div></div>
+          <div class="heatmap"><div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div><div class="cell c5"></div><div class="cell c6"></div><div class="cell c7"></div><div class="cell c8"></div><div class="cell c9"></div></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-index">MED / 03</div>
+          <h3>Heart Disease Prediction using EDA & ML</h3>
+          <p>Exploratory analysis of clinical health data, feature selection and model comparison across Logistic Regression, Decision Tree, Random Forest and SVM.</p>
+          <div class="model-row"><span>LOGISTIC REGRESSION</span><span>DECISION TREE</span><span>RANDOM FOREST</span><span>SVM</span></div>
+          <div class="metric-labels"><span>ACCURACY</span><span>PRECISION</span><span>RECALL</span><span>F1-SCORE</span></div>
+        </article>
+        <article class="project conceptual reveal">
+          <div class="project-index">MED / 04 · CONCEPTUAL DEVELOPMENT</div>
+          <h3>Biosensor-Based Healthcare Diagnostic System</h3>
+          <div class="bioflow"><span>BIOLOGICAL SIGNAL</span><i>↓</i><span>BIOSENSOR</span><i>↓</i><span>ML ANALYTICS</span><i>↓</i><span>DIAGNOSTIC INSIGHT</span></div>
+          <p>Designed a biosensor-driven diagnostic system architecture integrating biological signals with ML analytics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="vision" class="section lab vision">
+      <div class="section-head"><span>02 / COMPUTER VISION</span><span>IMAGE → REPRESENTATION</span></div>
+      <div class="vision-layout">
+        <div>
+          <div class="eyebrow">COMPUTER VISION</div>
+          <h2>Teach machines<br>to <em>see.</em></h2>
+          <p>OpenCV · YOLO Object Detection · Image Preprocessing · Medical Image Analysis · Image Segmentation · ECG Image Digitization</p>
+        </div>
+        <div class="vision-machine">
+          <div class="raw"><span>RAW IMAGE</span><div class="pixel-field"></div></div>
+          <div class="arrow">→</div>
+          <div class="processed"><span>MODEL SPACE</span><div class="boxes"><i></i><i></i><i></i></div></div>
+          <div class="arrow">→</div>
+          <div class="output"><span>OUTPUT</span><div class="mask"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="multimodal" class="section lab multimodal">
+      <div class="section-head"><span>03 / MULTIMODAL RESEARCH</span><span>JAN 2026 — JUN 2026</span></div>
+      <div class="eyebrow">COMPARATIVE STUDY OF UNI-MODAL AND MULTI-MODAL ECG DIAGNOSIS</div>
+      <h2>Five signals.<br><em>One intelligence.</em></h2>
+      <p class="section-intro">Designed and benchmarked five deep-learning pipelines across ECG images, signals, clinical text, structured features and multimodal fusion. Evaluated architectures, preprocessing techniques and fusion strategies for diagnostic performance, computational efficiency and clinical applicability.</p>
+      <div class="fusion">
+        <div class="stream s1"><span>ECG IMAGE</span></div>
+        <div class="stream s2"><span>ECG SIGNAL</span></div>
+        <div class="stream s3"><span>CLINICAL TEXT</span></div>
+        <div class="stream s4"><span>STRUCTURED FEATURES</span></div>
+        <div class="fusion-core"><div>FUSION</div><small>DIAGNOSTIC OUTPUT</small></div>
+      </div>
+      <div class="research-note"><span>RESEARCH STATUS</span><strong>MANUSCRIPT CURRENTLY UNDER PREPARATION</strong></div>
+    </section>
+
+    <section id="optimization" class="section lab optimization">
+      <div class="section-head"><span>04 / AI OPTIMIZATION</span><span>PROOF OF CONCEPT</span></div>
+      <div class="opt-layout">
+        <div>
+          <div class="eyebrow">LLM OPTIMIZATION LAB</div>
+          <h2>Less memory.<br>More <em>room.</em></h2>
+          <p>SpectralQuant-based KV-cache compression for transformer models, investigated as a resource-constrained deployment strategy.</p>
+          <div class="tags"><span>SPECTRALQUANT</span><span>KV CACHE</span><span>TRANSFORMERS</span><span>EFFICIENT AI</span></div>
+        </div>
+        <div class="compression">
+          <div class="cache-label">TRANSFORMER / KV CACHE</div>
+          <div class="cache-field" id="cacheField"></div>
+          <div class="compress-arrow">↓</div>
+          <button class="compress-btn magnetic" id="compressBtn">RUN TRANSFORMATION</button>
+          <div class="compact-field" id="compactField"></div>
+          <div class="cache-foot"><span>RESOURCE-CONSTRAINED AI</span><span>NO FABRICATED BENCHMARKS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section lab stack">
+      <div class="section-head"><span>05 / ENGINEERING STACK</span><span>TOOLS + CAPABILITIES</span></div>
+      <div class="eyebrow">TECHNOLOGY MATRIX</div>
+      <h2>Systems I<br><em>work with.</em></h2>
+      <div class="stack-grid">
+        <div class="stack-group"><h3>DEEP LEARNING & AI</h3><div class="chips"><span>Deep Neural Networks</span><span>CNNs</span><span>Transfer Learning</span><span>PyTorch</span><span>TensorFlow / Keras</span><span>Hugging Face Transformers</span><span>Grad-CAM</span></div></div>
+        <div class="stack-group"><h3>HEALTHCARE AI</h3><div class="chips"><span>PTB-XL Dataset</span><span>ECG Classification</span><span>Medical AI</span><span>Clinical Decision Support</span><span>Biomedical Data Analysis</span></div></div>
+        <div class="stack-group"><h3>COMPUTER VISION</h3><div class="chips"><span>OpenCV</span><span>YOLO Object Detection</span><span>Image Preprocessing</span><span>Medical Image Analysis</span><span>Image Segmentation</span><span>ECG Image Digitization</span></div></div>
+        <div class="stack-group"><h3>DATA SCIENCE</h3><div class="chips"><span>Data Pre-processing</span><span>Feature Engineering</span><span>EDA</span><span>Model Evaluation</span><span>Classification</span></div></div>
+      </div>
+    </section>
+
+    <section id="timeline" class="section lab timeline">
+      <div class="section-head"><span>06 / CAREER + EDUCATION</span><span>ORIGIN → CURRENT</span></div>
+      <div class="timeline-head"><div class="eyebrow">ENGINEERING TRAJECTORY</div><h2>From medicine<br>to <em>machine intelligence.</em></h2></div>
+      <div class="line">
+        <div class="event"><time>2022 — 2026</time><div><h3>B.Tech Computer Science and Medical Engineering</h3><p>Sri Ramachandra Faculty of Engineering and Technology · 7.1%</p></div></div>
+        <div class="event"><time>AUG — OCT 2024</time><div><h3>Heart Disease Prediction using EDA & ML</h3><p>Sri Ramachandra Institute of Higher Education and Research</p></div></div>
+        <div class="event"><time>JAN — JUN 2026</time><div><h3>Comparative Study of Uni-Modal and Multi-Modal ECG Diagnosis</h3><p>Research · manuscript under preparation</p></div></div>
+        <div class="event"><time>MAR — JUL 2026</time><div><h3>Onward Technologies Ltd</h3><p>ECG Signal Digitization & Feature Extraction · SpectralQuant-Based LLM Optimization</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-orb"></div>
+      <div class="eyebrow">07 / OPEN CHANNEL</div>
+      <h2>Build the next<br><em>system.</em></h2>
+      <p>AI / ML · Healthcare AI · Computer Vision · Multimodal Systems</p>
+      <div class="contact-links">
+        <a href="mailto:aswinkarthik1229@gmail.com" class="contact-link magnetic">EMAIL <span>aswinkarthik1229@gmail.com</span> ↗</a>
+        <div class="contact-link">PHONE <span>+91 7338989011</span></div>
+      </div>
+      <footer><span>ASWIN KARTHIK.G</span><span>BOAT / AI ENGINEERING LAB / 2026</span></footer>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
