@@ -1,0 +1,9 @@
+{
+  "name": "boat-aswin-karthik-portfolio-aero",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BOAT — Aswin Karthik AI Engineering Lab / Aero Edition",
+  "scripts": {
+    "start": "python -m http.server 8000"
+  }
+}
