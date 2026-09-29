@@ -1,8 +1,0 @@
-{
-  "name": "ASWIN // AI ENGINEERING LAB",
-  "short_name": "AK LAB",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#070908",
-  "theme_color": "#070908"
-}
